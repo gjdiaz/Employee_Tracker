@@ -11,7 +11,13 @@ inquirer
             // when application is launched and prompt generates multiple choices
             type: 'input',
             message: 'What would you like to do?',
-            // choices: View all departments, View all roles, View all employees, Add a department, Add a role, Add an employee, Update an employee role
+            choices: 'View all departments', 
+            'View all roles', 
+            'View all employees', 
+            'Add a department', 
+            'Add a role', 
+            'Add an employee', 
+            'Update an employee role',
             name: 'selectdepartment'
         },
         {
@@ -24,14 +30,14 @@ inquirer
             // when user chooses to add the role of an employee
             type: 'input',
             message: 'Add role of an employee.',
-            // new prompt function for array of choices: Name, Salary, Department
+            // new prompt for array of questions: Name, Salary, Department
             name: 'updaterole'
         },
         {
             // 
             type: 'input',
             message: 'Add employee.',
-            // new prompt function for array of choices: First Name, Last Name, Role, Manager
+            // new prompt for array of questions: First Name, Last Name, Role, Manager
             name: 'addemployee'
         },
         {
