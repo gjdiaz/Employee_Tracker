@@ -2,14 +2,14 @@
 -- prepopulates table
 -- property types taken from schema.sql
 
-/* INSERT INTO department (id, name)
+INSERT INTO department (id, name)
 VALUES (),
        (),
        (),
        ();
 
 
-INSERT INTO role (id, title, salary, department_id)
+INSERT INTO updaterole (id, title, salary, department_id)
 VALUES (),
        (),
        (),
